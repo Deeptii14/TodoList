@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Todo List</title>
+     <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<html>
+</head>
+
+<body>
+     <nav>
+          <div class="navbar">
+
+               <div>My Task List</div>
+
+               <div id="username"></div>
+          </div>
+
+     </nav>
+     <div class="todopanel">
+          <div class="leftpane">
+               <div class="main-heading">
+                    <div class="task-heading">T</div>
+                    <div class="task-heading">A</div>
+                    <div class="task-heading">S</div>
+                    <div class="task-heading">K</div>
+                    <div class="task-heading" style="margin-left: 4px;">L</div>
+                    <div class="task-heading">I</div>
+                    <div class="task-heading">S</div>
+                    <div class="task-heading">T</div>
+               </div>
+               <p>
+                    Add task to your list by typing to the right and pressing enter. You may then view pending tasks
+                    below.
+               </p>
+               <div id="displaytasks"></div>
+          </div>
+          <div class="rightpane">
+               <label for="task-detail">Enter your tasks here
+
+                    <input type="text" placeholder="Example :- exercise" id="task-detail">
+               </label>
+
+               <label for="add-todo">
+
+                    <input type="button" id="add-todo" value="Add Task">
+               </label>
+          </div>
+     </div>
+     <script src="/todo.js"></script>
+</body>
+
+</html>

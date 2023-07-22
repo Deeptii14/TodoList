@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: linear-gradient(to right, white, rgb(226, 217, 238));
+}
+nav {
+  background-color: blueviolet;
+  height: 50px;
+  padding: 10px;
+  box-shadow: 5px 6px 12px #888888;
+}
+.navbar {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  max-width: 1350px;
+  margin: 0 auto;
+  color: aliceblue;
+  justify-content: space-between;
+  letter-spacing: 2px;
+}
+.todopanel {
+  display: flex;
+  max-width: 1350px;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.leftpane {
+  padding: 18px;
+  max-width: 650px;
+  box-shadow: 2px 4px 14px grey;
+  min-height: 500px;
+}
+.rightpane {
+  padding: 20px;
+  max-width: 650px;
+  box-shadow: 2px 4px 14px grey;
+}
+.main-heading {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.task-heading {
+  padding: 8px;
+  font-size: x-large;
+  background-color: blueviolet;
+  border: 0 solid;
+  border-radius: 50%;
+  color: white;
+}
+#task-detail,
+#name-detail {
+  margin: 14px 0;
+  width: 100%;
+  font-size: large;
+  padding: 6px;
+  border: none;
+  border-bottom: 2px solid grey;
+  border-bottom-width: 1px grey;
+  outline: none;
+  background-color: transparent;
+}
+#add-todo {
+  margin-top: 8px;
+  background-color: blueviolet;
+  padding: 8px;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
+#displaytasks {
+  margin-top: 12px;
+  width: 100%;
+  padding: 12px;
+  line-height: 20px;
+}
+.todo-element-display {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(175, 175, 175);
+  padding: 4px;
+}
+.btn-of-todo {
+  display: flex;
+  gap: 10px;
+}
+
+.checkbox-btn {
+  width: 20px;
+  height: 20px;
+}
